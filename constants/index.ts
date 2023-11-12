@@ -1,0 +1,171 @@
+import { MoveRight } from "lucide-react";
+export const ServicesLinks = [
+  {
+    id: 1,
+    title: "Buy a Home",
+    image: "/images/buy-home.png",
+    description:
+      "Over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.",
+    footerText: "Find A Home",
+    icon: MoveRight, // Store the component type
+  },
+  {
+    id: 2,
+    title: "Rent a Home",
+    image: "/images/rent-home.png",
+    description:
+      "over 1 million+ homes for sale available on the website, we can match you with a house you wil want to call home.",
+    footerText: "Find A Home",
+  },
+  {
+    id: 3,
+    title: "Sell a Home",
+    image: "/images/sell-home.png",
+    description:
+      "over 1 million+ homes for sale available on the website, we can match you with a house you wil want to call home.",
+    footerText: "Find A Home",
+  },
+];
+
+export const SummaryLinks = [
+  {
+    id: 1,
+    title: "Total Construction",
+    amount: "260+",
+    image: "/images/excavator.png",
+  },
+  {
+    id: 2,
+    title: "Apartio Rooms",
+    amount: "110+",
+    image: "/images/interior-design.png",
+  },
+  {
+    id: 3,
+    title: "Apartments Sold",
+    amount: "190+",
+    image: "/images/office.png",
+  },
+  {
+    id: 4,
+    title: "Total Area Sq",
+    amount: "560+",
+    image: "/images/map.png",
+  },
+];
+
+export const agentsLink = [
+  {
+    id: 1,
+    name: "David Wing",
+    title: "Eco Builder",
+    phone: "+Call: +1 234 567 890",
+    experience: "3 Years Experience",
+    image: "/images/team1.png",
+  },
+  {
+    id: 2,
+    name: "Mike Hue",
+    title: "Architect Design",
+    phone: "Call: +1 234 567 890",
+    experience: "4 Years Experience",
+    image: "/images/team2.png",
+  },
+  {
+    id: 3,
+    name: "Ela Steven",
+    title: "Interior Design",
+    phone: "Call: +1 234 567 890",
+    experience: "3 Years Experience",
+    image: "/images/team3.png",
+  },
+  {
+    id: 4,
+    name: "Billi Butcher",
+    title: "Sweet Home",
+    phone: "Call: +1 234 567 890",
+    experience: "5 Years Experience",
+    image: "/images/team4.png",
+  },
+];
+
+export const listingLinks = [
+  {
+    id: 1,
+    title: "1963 S Crescent Heights Blvd",
+    address: "Hills, CA 90210",
+    size: "2400 Square Feet",
+    bedrooms: "20 Bedrooms",
+    owner: "Michel Smith",
+    garage: "2 Garages",
+    bathrooms: "8 Bathrooms",
+    published: "1 days ago",
+    status: "For Sale",
+    image: "/images/listings/1.png",
+  },
+  {
+    id: 2,
+    title: "302 North Plam Drive",
+    address: "Beverly Hills, CA 90210",
+    size: "2300 Square Feet",
+    bedrooms: "20 Bedrooms",
+    owner: "Adam Smith",
+    garage: "3 Garages",
+    bathrooms: "10 Bathrooms",
+    published: "5 days ago",
+    status: "For Rent",
+    image: "/images/listings/2.png",
+  },
+  {
+    id: 3,
+    title: "28 Quaker Road, Manhasset",
+    address: "California Hills, CA 90210",
+    size: "2020 Square Feet",
+    bedrooms: "22 Bedrooms",
+    owner: "David Lee",
+    garage: "2 Garages",
+    bathrooms: "11 Bathrooms",
+    published: "5 days ago",
+    status: "For Sale",
+    image: "/images/listings/3.png",
+  },
+  {
+    id: 4,
+    title: "Sofi Berryessa 750 King Road",
+    address: "Los Angel, CA 90210",
+    size: "2350 Square Feet",
+    bedrooms: "19 Bedrooms",
+    owner: "Lee Hue",
+    garage: "4 Garages",
+    bathrooms: "10 Bathrooms",
+    published: "5 days ago",
+    status: "For Sale",
+    image: "/images/listings/4.png",
+  },
+  {
+    id: 5,
+    title: "1203 Orren Street, Northeast",
+    address: "Louisiana, CA 90210",
+    size: "1800 Square Feet",
+    bedrooms: "18 Bedrooms",
+    owner: "Tom Steven",
+    garage: "2 Garages",
+    bathrooms: "7 Bathrooms",
+    published: "6 days ago",
+    status: "For Rent",
+    image: "/images/listings/5.png",
+  },
+  {
+    id: 6,
+    title: "28 Ridge Road, Manhasset",
+    address: "Claremont, CA 90210",
+    size: "2020 Square Feet",
+    bedrooms: "20 Bedrooms",
+    owner: "David Jhonson",
+    garage: "3 Garages",
+    bathrooms: "11 Bathrooms",
+    published: "7 days ago",
+    status: "For Sale",
+    image: "/images/listings/6.png",
+  },
+];
