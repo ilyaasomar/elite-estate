@@ -65,13 +65,13 @@ const Hero = () => {
               <SelectValue placeholder="Select Location" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="1">Somalia</SelectItem>
-              <SelectItem value="2">Palastine</SelectItem>
-              <SelectItem value="3">Indonisia</SelectItem>
-              <SelectItem value="4">Maleysia</SelectItem>
-              <SelectItem value="5">Pakistan</SelectItem>
-              <SelectItem value="6">Kyzagistan</SelectItem>
-              <SelectItem value="7">Afghanistan</SelectItem>
+              <SelectItem value="1">Mogadishu</SelectItem>
+              <SelectItem value="2">Hargeysa</SelectItem>
+              <SelectItem value="3">Kismaayo</SelectItem>
+              <SelectItem value="4">Baydhabo</SelectItem>
+              <SelectItem value="5">Boosaaso</SelectItem>
+              <SelectItem value="6">Berbera</SelectItem>
+              <SelectItem value="7">Marka</SelectItem>
             </SelectContent>
           </Select>
           <Select>
@@ -83,7 +83,6 @@ const Hero = () => {
               <SelectItem value="2">Pathrooms</SelectItem>
               <SelectItem value="3">Livingroom</SelectItem>
               <SelectItem value="4">Kitchen</SelectItem>
-              <SelectItem value="5">Pakistan</SelectItem>
             </SelectContent>
           </Select>
           <Select>

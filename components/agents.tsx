@@ -42,7 +42,7 @@ const Agents = () => {
                     </p>
                   </span>
                 </div>
-                <div className="absolute bg-[#ececec] w-40 top-60 2x:top-56 ">
+                <div className="absolute bg-[#ececec] w-40 top-64 2x:top-56 ">
                   <p className="font-normal text-[14px] text-primaryColor-0 px-1 font-inter">
                     {agent.experience}
                   </p>
