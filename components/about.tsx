@@ -27,7 +27,9 @@ const About = () => {
             <h3 className="font-medium font-inter text-[22px] leading-[30px]">
               National Real Estate Awards
             </h3>
-            <p className="font-medium font-inter text-[20px] text-stateGray-0">Analysis</p>
+            <p className="font-medium font-inter text-[20px] text-stateGray-0">
+              Analysis
+            </p>
           </div>
         </div>
         {/* text */}
@@ -36,7 +38,7 @@ const About = () => {
             ABOUT US
           </h3>
           <h1 className="text-[46px] font-inter font-semibold leading-[56px] max-w-2xl">
-            We're on a Mission to Change View of RealEstate Field.
+            We are on a Mission to Change View of RealEstate Field.
           </h1>
           <p className="font-normal font-inter text-[16px] leading-[26px] text-stateGray-0 max-w-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit ux sed
@@ -51,7 +53,9 @@ const About = () => {
                 height={40}
                 alt="image"
               />
-              <h3 className="font-semibold text-[15px] font-inter">Modern Villa</h3>
+              <h3 className="font-semibold text-[15px] font-inter">
+                Modern Villa
+              </h3>
               <p className="font-normal font-inter text-[16px] leading-[26px] text-stateGray-0 max-w-[270px]">
                 When unknown printer took galley of type and scrambled.
               </p>
@@ -64,7 +68,9 @@ const About = () => {
                 height={40}
                 alt="image"
               />
-              <h3 className="font-semibold text-[15px] font-inter">Secure Payment</h3>
+              <h3 className="font-semibold text-[15px] font-inter">
+                Secure Payment
+              </h3>
               <p className="font-inter font-normal text-[16px] leading-[26px] text-stateGray-0 max-w-[270px]">
                 When unknown printer took galley of type and scrambled.{" "}
               </p>

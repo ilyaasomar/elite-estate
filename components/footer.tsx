@@ -47,7 +47,10 @@ const Footer = () => {
             </p>
             <div className="flex flex-col items-start space-y-4 mt-5">
               {footerQuickLinks.map((link) => (
-                <p className="font-inter font-medium text-[16px] cursor-pointer text-white">
+                <p
+                  key={link.id}
+                  className="font-inter font-medium text-[16px] cursor-pointer text-white"
+                >
                   {link.title}
                 </p>
               ))}
@@ -61,7 +64,10 @@ const Footer = () => {
             </p>
             <div className="flex flex-col items-start space-y-4 mt-5">
               {footerServices.map((link) => (
-                <p className="font-inter font-medium text-[16px] cursor-pointer text-white">
+                <p
+                  key={link.id}
+                  className="font-inter font-medium text-[16px] cursor-pointer text-white"
+                >
                   {link.title}
                 </p>
               ))}

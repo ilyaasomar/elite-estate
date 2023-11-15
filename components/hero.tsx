@@ -20,7 +20,7 @@ const Hero = () => {
             {/* right section */}
             <div className="flex flex-1 items-start flex-col gap-y-10">
               <h1 className="text-7xl font-bold leading-tight font-inter">
-                Discover A Place You'ill Love To Live
+                Discover A Place You will Love To Live
               </h1>
               <p className="font-normal font-inter text-[16px] leading-[26px] text-stateGray-0">
                 Homie is a real estate soluation that gives you the local scoop
