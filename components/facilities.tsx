@@ -13,7 +13,7 @@ const Facilities = () => {
 
           <Image
             src="/images/facility-image.png"
-            width={600}
+            width={660}
             height={200}
             alt="image"
             className="object-contain z-1"

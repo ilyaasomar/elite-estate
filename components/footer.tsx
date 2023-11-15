@@ -9,6 +9,7 @@ import {
 
 import { Mail, MapPin, Smartphone } from "lucide-react";
 import { footerQuickLinks, footerServices } from "@/constants";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -26,18 +27,30 @@ const Footer = () => {
             {/* social media icons */}
             <div className="flex gap-x-3 items-center">
               {/* facebook */}
-              <div className="w-8 h-8 bg-primaryColor-0 rounded-full flex items-center justify-center">
+              <Link
+                href="https://www.facebook.com/xayle.cumar"
+                className="w-8 h-8 bg-primaryColor-0 rounded-full flex items-center justify-center"
+              >
                 <FaFacebookF size={20} className="text-white" />
-              </div>
-              <div className="w-8 h-8 bg-primaryColor-0 rounded-full flex items-center justify-center">
+              </Link>
+              <Link
+                href="https://www.instagram.com/ilyaas_haile"
+                className="w-8 h-8 bg-primaryColor-0 rounded-full flex items-center justify-center"
+              >
                 <FaInstagram size={20} className="text-white" />
-              </div>
-              <div className="w-8 h-8 bg-primaryColor-0 rounded-full flex items-center justify-center">
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/ilyas-omar-667b88171"
+                className="w-8 h-8 bg-primaryColor-0 rounded-full flex items-center justify-center"
+              >
                 <FaLinkedinIn size={20} className="text-white" />
-              </div>
-              <div className="w-8 h-8 bg-primaryColor-0 rounded-full flex items-center justify-center">
+              </Link>
+              <Link
+                href="https://twitter.com/ilyashaile"
+                className="w-8 h-8 bg-primaryColor-0 rounded-full flex items-center justify-center"
+              >
                 <FaTwitter size={20} className="text-white" />
-              </div>
+              </Link>
             </div>
           </div>
           {/* quick links */}
