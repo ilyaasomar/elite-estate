@@ -29,21 +29,21 @@ const Agents = () => {
                   className="w-full object-contain rounded-md"
                 />
                 <div className="fle flex-col space-y-2">
-                  <h2 className="font-medium text-[20px] text-secondaryColor-0">
+                  <h2 className="font-medium text-[20px] text-secondaryColor-0 font-inter">
                     {agent.name}
                   </h2>
-                  <p className="font-normal text-[14px] text-stateGray-0">
+                  <p className="font-normal text-[14px] text-stateGray-0 font-inter">
                     {agent.title}
                   </p>
                   <span className="flex items-center gap-x-2 ">
                     <Phone size={15} className="text-primaryColor-0" />
-                    <p className="font-normal text-[14px] text-stateGray-0">
+                    <p className="font-normal text-[14px] text-stateGray-0 font-inter">
                       {agent.phone}
                     </p>
                   </span>
                 </div>
-                <div className="absolute bg-[#ececec] w-32 top-56 ">
-                  <p className="font-normal text-[14px] text-primaryColor-0">
+                <div className="absolute bg-[#ececec] w-40 top-60 2x:top-56 ">
+                  <p className="font-normal text-[14px] text-primaryColor-0 px-1 font-inter">
                     {agent.experience}
                   </p>
                 </div>
@@ -67,16 +67,16 @@ const Agents = () => {
             />
           </div>
           <div className="flex flex-col items-start gap-y-2">
-            <h2 className="text-[38px] font-medium leading-[52px] text-[#282828]">
+            <h2 className="text-[38px] font-medium leading-[52px] text-[#282828] font-inter">
               Become an Agent
             </h2>
-            <p className="text-[24px] leading-[26px] text-stateGray-0 font-normal">
+            <p className="text-[24px] leading-[26px] text-stateGray-0 font-normal font-inter">
               Agent hen an unknown printer took a galley scramble
             </p>
           </div>
         </div>
         {/* button */}
-        <Button className="bg-primaryColor-0 hover:bg-primaryColor-0 flex justify-end px-7 text-[18px] leading-[26px]">
+        <Button className="bg-primaryColor-0 hover:bg-primaryColor-0 font-inter flex justify-end px-7 text-[18px] leading-[26px]">
           Join Now
         </Button>
       </div>

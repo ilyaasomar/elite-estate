@@ -19,7 +19,7 @@ const Navbar = () => {
               <Search size={20} className="text-primaryColor-0" />
             </div>
             {/* call to action */}
-            <Button className="bg-primaryColor-0 font-inter">Get Started</Button>
+            <Button className="bg-primaryColor-0 font-inter hover:bg-primaryColor-0">Get Started</Button>
           </div>
         </div>
       </div>

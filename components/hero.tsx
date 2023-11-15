@@ -27,7 +27,9 @@ const Hero = () => {
                 about homes. Search confidently with your trusted source of
                 homes for sale or rent.
               </p>
-              <Button className="bg-primaryColor-0 font-inter">Make An Enquiry</Button>
+              <Button className="bg-primaryColor-0 font-inter hover:bg-primaryColor-0">
+                Make An Enquiry
+              </Button>
             </div>
             {/* left section */}
             <div className="flex flex-1 items-center relative justify-end">
@@ -93,7 +95,7 @@ const Hero = () => {
               <SelectItem value="2">For Sale</SelectItem>
             </SelectContent>
           </Select>
-          <Button className="bg-primaryColor-0 flex gap-x-2">
+          <Button className="bg-primaryColor-0 flex gap-x-2 px-4 hover:bg-primaryColor-0">
             <Search size={20} />
             Search
           </Button>
