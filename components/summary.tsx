@@ -6,7 +6,7 @@ const Summary = () => {
   return (
     <div className="bg-[#E2EFFF] py-24 mt-36">
       <div className="container mx-auto">
-        <div className="flex flex-row justify-between items-center">
+        <div className="flex flex-wrap md:flex-row justify-between items-center gap-y-6 md:gap-y-0">
           {SummaryLinks.map((summary) => (
             <>
               <div className="flex flex-col items-center gap-y-5">

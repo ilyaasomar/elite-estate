@@ -4,21 +4,21 @@ import React from "react";
 
 const Facilities = () => {
   return (
-    <div className="container mx-auto mt-36">
+    <div className="px-4 md:container mx-auto mt-36">
       {/* container */}
-      <div className="flex items-center gap-x-5 w-full relative">
+      <div className="flex flex-col lg:flex-row items-center gap-x-5 gap-y-10 w-full relative">
         {/* image */}
         <div className="w-full relative ">
-          <div className="absolute inset-0 bg-[#74B0FF] opacity-50 z-10"></div>
+          <div className="absolute inset-0 bg-[#74B0FF] opacity-50 z-10" />
 
           <Image
             src="/images/facility-image.png"
             width={660}
             height={200}
             alt="image"
-            className="object-contain z-1"
+            className="object-contain w-full z-1"
           />
-          <div className="absolute top-56 left-64 z-50">
+          <div className="absolute top-28 md:top-56 left-36 md:left-72 xl:left-64 z-50">
             <Image
               src="/images/play-button.png"
               width={80}
@@ -33,7 +33,7 @@ const Facilities = () => {
           <h3 className="font-normal uppercase font-inter text-start text-[18px] text-primaryColor-0">
             Our facilities
           </h3>
-          <h1 className="text-[46px] font-inter font-semibold leading-[56px] max-w-2xl">
+          <h1 className="text-[24px] md:text-[46px] font-inter font-semibold leading-normal md:leading-[56px] max-w-2xl">
             The experts in local and international property
           </h1>
           <p className="font-normal font-inter text-[16px] leading-[26px] text-stateGray-0 max-w-2xl">

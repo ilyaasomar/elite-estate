@@ -7,8 +7,8 @@ import { Button } from "./ui/button";
 const Newsletter = () => {
   return (
     <div className="bg-primaryColor-0 py-10 mt-36">
-      <div className="container mx-auto">
-        <div className="flex flex-row items-center justify-between">
+      <div className="px-4 md:container mx-auto">
+        <div className="flex flex-col px-4 md:px-24 lg:px-0 lg:flex-row items-center justify-between gap-y-6 lg:py-0">
           <div className="flex flex-col items-center w-full">
             <div className="flex flex-col gap-y-1">
               <h1 className="font-inter font-semibold text-[40px] text-white">

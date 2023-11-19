@@ -5,17 +5,17 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="container mx-auto m-36">
+    <div className="px-4 md:container mx-auto m-36">
       <div className="flex flex-col items-center">
         <div className="flex flex-col gap-y-0 items-center ">
           <h3 className="font-normal text-start font-inter text-[18px] text-primaryColor-0">
             Properties
           </h3>
-          <h1 className="text-secondaryColor-0 font-inter text-[46px] leading-[82px] font-semibold">
+          <h1 className="text-secondaryColor-0 font-inter text-[24px] lg:text-[46px] leading-[82px] font-semibold">
             our Popular properties
           </h1>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-16 mt-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-16 mt-7">
           {blogLinks.map((blog) => (
             <>
               <div className="bg-white relative flex flex-col shadow-xl">

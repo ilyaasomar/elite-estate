@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const Agents = () => {
   return (
-    <div className="container mx-auto m-36">
+    <div className="px-4 md:container mx-auto m-36">
       <div className="flex flex-col">
         <div className="flex flex-col gap-y-0 items-center justify-center">
           <h3 className="font-normal text-start font-inter text-[18px] text-primaryColor-0">
@@ -16,10 +16,10 @@ const Agents = () => {
             Our Growing Agents
           </h1>
         </div>
-        <div className="flex gap-x-10 mt-7 justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-10 mt-7 justify-center">
           {agentsLink.map((agent) => (
             <>
-              <div className="bg-white relative flex flex-col gap-y-2 shadow-lg border p-6 w-1/4">
+              <div className="bg-white relative flex flex-col gap-y-2 shadow-lg border p-6 ">
                 {/* image div */}
                 <Image
                   src={agent.image}
@@ -42,7 +42,7 @@ const Agents = () => {
                     </p>
                   </span>
                 </div>
-                <div className="absolute bg-[#ececec] w-40 top-64 2x:top-56 ">
+                <div className="absolute bg-[#ececec] w-40 hidden lg:block lg:top-48 xl:top-60 2xl:top-64 ">
                   <p className="font-normal text-[14px] text-primaryColor-0 px-1 font-inter">
                     {agent.experience}
                   </p>
@@ -55,9 +55,9 @@ const Agents = () => {
 
       {/*  */}
 
-      <div className="bg-[#E2EFFF] w-full p-16 mt-36 flex items-center justify-between">
+      <div className="hidden md:flex bg-[#E2EFFF] w-full p-16 mt-36 items-center justify-between">
         <div className="flex flex-row gap-x-3 items-center">
-          <div className="bg-white w-24 h-24 rounded-full flex items-center justify-center">
+          <div className="hidden lg:flex bg-white w-24 h-24 rounded-full items-center justify-center">
             <Image
               src="/images/fluent_people.png"
               width={60}

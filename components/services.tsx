@@ -4,7 +4,7 @@ import { ServicesLinks } from "@/constants";
 
 const Services = () => {
   return (
-    <div className="container mx-auto m-36">
+    <div className="px-4 md:container mx-auto m-36">
       <div className="flex flex-col">
         <div className="flex flex-col gap-y-0 items-center justify-center">
           <h3 className="font-normal font-inter text-start text-[18px] text-primaryColor-0">
@@ -14,7 +14,7 @@ const Services = () => {
             Our Main Focus
           </h1>
         </div>
-        <div className="flex gap-x-10 mt-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-10 mt-7">
           {ServicesLinks.map((service) => (
             <>
               <div className="group relative">

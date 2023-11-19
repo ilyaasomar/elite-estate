@@ -20,7 +20,7 @@ const Footer = () => {
           {/* logo section */}
           <div className="flex flex-col gap-y-5">
             <LogoWhite />
-            <p className="font-inter font-normal text-[16px] leading-[26px] text-white max-w-sm">
+            <p className="hidden md:block font-inter font-normal text-[16px] leading-[26px] text-white max-w-sm">
               Lorem Ipsum is simply dummy text of the and typesetting industry.
               Lorem Ipsum is dummy text of the printing.
             </p>
@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
           </div>
           {/* quick links */}
-          <div className="flex flex-col">
+          <div className="hidden lg:flex flex-col">
             <p className="font-inter font-semibold text-[24px] leading-[26px] text-white">
               Quick Links
             </p>
@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
 
           {/* services*/}
-          <div className="flex flex-col">
+          <div className="hidden lg:flex flex-col">
             <p className="font-inter font-semibold text-[24px] leading-[26px] text-white">
               Services
             </p>
@@ -95,19 +95,19 @@ const Footer = () => {
               <div className="flex gap-x-2 items-center">
                 <MapPin size={28} className="text-white" />
                 <p className="font-inter font-medium text-[16px] max-w-xs cursor-pointer text-white leading-[26px]">
-                  124 Brooklyn, New York United States
+                  Taleh, Mogadishu - Somalia
                 </p>
               </div>
               <div className="flex gap-x-2 items-center">
                 <Smartphone size={24} className="text-white" />
                 <p className="font-inter font-medium text-[16px] cursor-pointer text-white">
-                  +11 2 3456 7890
+                  +252 61 6437857
                 </p>
               </div>
               <div className="flex gap-x-2 items-center">
                 <Mail size={20} className="text-white" />
                 <p className="font-inter font-medium text-[16px] cursor-pointer text-white">
-                  info@houzing.com
+                  info@hirsad.com
                 </p>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Footer = () => {
             <p className="font-normal text-[14px] font-inter text-white">
               © Copyright Ilyas Omar 2023 All Right Reserved.
             </p>
-            <div className="flex items-center gap-x-5">
+            <div className="hidden md:flex items-center gap-x-5">
               <p className="font-normal text-[14px] font-inter text-white">
                 terms of use
               </p>

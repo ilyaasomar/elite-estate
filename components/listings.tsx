@@ -14,17 +14,17 @@ import {
 
 const Listings = () => {
   return (
-    <div className="container mx-auto m-36">
+    <div className="px-4 md:container mx-auto m-36">
       <div className="flex flex-col">
         <div className="flex flex-col gap-y-0 items-center justify-center">
           <h3 className="font-normal uppercase text-start font-inter text-[18px] text-primaryColor-0">
             Featured Listing
           </h3>
-          <h1 className="text-secondaryColor-0 max-w-xl text-center font-inter text-[46px] leading-[82px] font-semibold">
+          <h1 className="text-secondaryColor-0 max-w-xl text-center font-inter text-[46px] leading-tight  md:leading-[82px] font-semibold">
             We Bring Dream Homes To Reality
           </h1>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3  gap-10 mt-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-10 mt-7">
           {listingLinks.map((listing) => (
             <>
               <div className="bg-white relative flex flex-col gap-y-2 shadow-md p-6">

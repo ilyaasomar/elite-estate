@@ -5,17 +5,17 @@ import { popularProperties } from "@/constants";
 
 const PopularProperties = () => {
   return (
-    <div className="container mx-auto m-36">
+    <div className="px-4 md:container mx-auto m-36">
       <div className="flex flex-col">
         <div className="flex flex-col gap-y-0 items-center justify-center">
           <h3 className="font-normal text-start font-inter text-[18px] text-primaryColor-0">
             Properties
           </h3>
-          <h1 className="text-secondaryColor-0 font-inter text-[46px] leading-[82px] font-semibold">
+          <h1 className="text-secondaryColor-0 font-inter text-[30px] lg:text-[46px] leading-[82px] font-semibold">
             our Popular properties
           </h1>
         </div>
-        <div className="flex gap-x-10 mt-7 justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10 mt-7 justify-center">
           {popularProperties.map((property) => (
             <>
               <div className="bg-white relative flex flex-col gap-y-2 shadow-lg">

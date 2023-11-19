@@ -29,7 +29,7 @@ const NavItems = () => {
       href: "/",
     },
   ];
-  return <div className="flex items-center gap-x-8">
+  return <div className="hidden md:flex items-center gap-x-4 lg:gap-x-8">
     {routes.map((route)=>(
         <Link href={route.href} key={route.id} className="font-normal text-[16px] text-stateGray-0 font-inter">
             {route.label}

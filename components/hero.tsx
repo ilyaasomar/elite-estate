@@ -15,10 +15,10 @@ const Hero = () => {
   return (
     <div className="relative">
       <div className="bg-[#F4F9FF] pb-10">
-        <div className="container mx-auto">
-          <div className="flex justify-between items-center py-24 gap-x-1">
+        <div className="px-4 md:container mx-auto">
+          <div className="flex flex-col lg:flex-row justify-between items-center py-24 gap-y-16 lg:gap-x-1">
             {/* right section */}
-            <div className="flex flex-1 items-start flex-col gap-y-10">
+            <div className="flex w-full lg:flex-1 items-start flex-col gap-y-10">
               <h1 className="text-7xl font-bold leading-tight font-inter">
                 Discover A Place You will Love To Live
               </h1>
@@ -32,12 +32,13 @@ const Hero = () => {
               </Button>
             </div>
             {/* left section */}
-            <div className="flex flex-1 items-center relative justify-end">
+            <div className="flex w-full lg:flex-1 items-center relative lg:justify-center">
               <Image
                 src="/images/hero-image.png"
                 width={500}
                 height={100}
                 alt="image"
+                className="w-full lg:w-4/5"
               />
               <Image
                 src="/images/Rating.png"
@@ -58,7 +59,7 @@ const Hero = () => {
         </div>
       </div>
       {/* <CallToAction /> */}
-      <div className="absolute bg-white flex items-center justify-center shadow-lg w-2/3 left-1/2 top-[780px]  h-24 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute bg-white hidden md:flex items-center justify-center shadow-lg w-full px-4 xl:w-2/3 left-1/2 xl:top-[780px]  h-24 transform -translate-x-1/2 -translate-y-1/2">
         <div className="flex gap-x-5">
           <Select>
             <SelectTrigger className="w-[180px]">

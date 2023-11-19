@@ -5,7 +5,7 @@ import React from "react";
 const Testmonials = () => {
   return (
     <div className="mt-36 bg-[#E9F3FF] py-24">
-      <div className="container mx-auto">
+      <div className="px-4 md:container mx-auto">
         <div>
           <div className="flex flex-col items-center justify-center">
             <h3 className="font-normal uppercase text-start font-inter text-[18px] text-primaryColor-0">
@@ -16,7 +16,7 @@ const Testmonials = () => {
             </h1>
           </div>
           {/*  */}
-          <div className="flex flex-row items-center gap-x-10 w-full mt-10">
+          <div className="grid gr-cols-1 md:grid-cols-2 xl:grid-cols-3 flex-row items-center gap-y-10 gap-x-10 w-full mt-10">
             {
               testmonialLinks.map((testmonial)=>(
 
