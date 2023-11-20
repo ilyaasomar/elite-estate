@@ -11,7 +11,7 @@ const Testmonials = () => {
             <h3 className="font-normal uppercase text-start font-inter text-[18px] text-primaryColor-0">
               Our Testimonials
             </h3>
-            <h1 className="text-secondaryColor-0 max-w-xl text-center font-inter text-[42px] leading-[52px] font-semibold">
+            <h1 className="text-secondaryColor-0 max-w-xl text-center font-inter text-3xl md:text-[42px] leading-tight md:leading-[52px] font-semibold">
               What Our Customers Says
             </h1>
           </div>

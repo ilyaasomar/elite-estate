@@ -7,7 +7,6 @@ import NavItems from "./nav-items";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
   return (
     <div className="bg-[#ECF2F9] w-full mx-auto border-b border-primaryColor-0">
       <div className="px-4 md:container mx-auto">

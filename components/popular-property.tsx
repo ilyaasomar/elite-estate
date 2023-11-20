@@ -11,7 +11,7 @@ const PopularProperties = () => {
           <h3 className="font-normal text-start font-inter text-[18px] text-primaryColor-0">
             Properties
           </h3>
-          <h1 className="text-secondaryColor-0 font-inter text-[30px] lg:text-[46px] leading-[82px] font-semibold">
+          <h1 className="text-secondaryColor-0 font-inter text-3xl md:text-[46px] leading-[82px] font-semibold">
             our Popular properties
           </h1>
         </div>

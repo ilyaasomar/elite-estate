@@ -14,9 +14,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="bg-secondaryColor-0">
-      <div className="container mx-auto">
+      <div className="px-4 md:container mx-auto ">
         {/* top section */}
-        <div className="pt-12 pb-4 flex gap-x-10 justify-between">
+        <div className="pt-12 pb-4 flex flex-col md:flex-row gap-y-10 gap-x-10 justify-between">
           {/* logo section */}
           <div className="flex flex-col gap-y-5">
             <LogoWhite />
@@ -86,7 +86,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          {/* services*/}
+          {/* contacts*/}
           <div className="flex flex-col">
             <p className="font-inter font-semibold text-[24px] leading-[26px] text-white">
               Contract

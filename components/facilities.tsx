@@ -18,13 +18,13 @@ const Facilities = () => {
             alt="image"
             className="object-contain w-full z-1"
           />
-          <div className="absolute top-28 md:top-56 left-36 md:left-72 xl:left-64 z-50">
+          <div className="absolute top-28 md:top-56 left-36 md:left-1/2 lg:left-center xl:left-64 z-50">
             <Image
               src="/images/play-button.png"
               width={80}
               height={80}
               alt="image"
-              className="object-contain  "
+              className="object-contain"
             />
           </div>
         </div>

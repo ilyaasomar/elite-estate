@@ -20,7 +20,7 @@ const Listings = () => {
           <h3 className="font-normal uppercase text-start font-inter text-[18px] text-primaryColor-0">
             Featured Listing
           </h3>
-          <h1 className="text-secondaryColor-0 max-w-xl text-center font-inter text-[46px] leading-tight  md:leading-[82px] font-semibold">
+          <h1 className="text-secondaryColor-0 max-w-xl text-center font-inter text-3xl md:text-[46px] leading-tight  md:leading-[82px] font-semibold">
             We Bring Dream Homes To Reality
           </h1>
         </div>

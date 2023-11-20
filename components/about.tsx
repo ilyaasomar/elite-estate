@@ -37,7 +37,7 @@ const About = () => {
           <h3 className="font-normal font-inter text-start text-[18px] text-primaryColor-0">
             ABOUT US
           </h3>
-          <h1 className="text-3xl lg:text-[46px] font-inter font-semibold leading-[56px] max-w-2xl">
+          <h1 className="text-3xl lg:text-[46px] font-inter font-semibold leading-normal md:leading-[56px] max-w-2xl">
             We are on a Mission to Change View of RealEstate Field.
           </h1>
           <p className="font-normal font-inter text-[16px] leading-[26px] text-stateGray-0 max-w-2xl">

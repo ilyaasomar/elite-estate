@@ -12,7 +12,7 @@ const Agents = () => {
           <h3 className="font-normal text-start font-inter text-[18px] text-primaryColor-0">
             EXPERTISE IS HERE
           </h3>
-          <h1 className="text-secondaryColor-0 font-inter text-[46px] leading-[82px] font-semibold">
+          <h1 className="text-secondaryColor-0 font-inter text-3xl md:text-[46px] leading-[82px] font-semibold">
             Our Growing Agents
           </h1>
         </div>

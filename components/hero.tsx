@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import CallToAction from "./call-to-action";
 import {
   Select,
   SelectContent,
@@ -19,7 +18,7 @@ const Hero = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center py-24 gap-y-16 lg:gap-x-1">
             {/* right section */}
             <div className="flex w-full lg:flex-1 items-start flex-col gap-y-10">
-              <h1 className="text-7xl font-bold leading-tight font-inter">
+              <h1 className="text-3xl md:text-7xl font-bold leading-tight font-inter">
                 Discover A Place You will Love To Live
               </h1>
               <p className="font-normal font-inter text-[16px] leading-[26px] text-stateGray-0">

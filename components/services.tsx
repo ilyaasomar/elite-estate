@@ -10,7 +10,7 @@ const Services = () => {
           <h3 className="font-normal font-inter text-start text-[18px] text-primaryColor-0">
             OUR SERVICES
           </h3>
-          <h1 className="text-secondaryColor-0 font-inter text-[46px] leading-[82px] font-semibold">
+          <h1 className="text-secondaryColor-0 font-inter text-3xl md:text-[46px] leading-[82px] font-semibold">
             Our Main Focus
           </h1>
         </div>

@@ -11,7 +11,7 @@ const Newsletter = () => {
         <div className="flex flex-col px-4 md:px-24 lg:px-0 lg:flex-row items-center justify-between gap-y-6 lg:py-0">
           <div className="flex flex-col items-center w-full">
             <div className="flex flex-col gap-y-1">
-              <h1 className="font-inter font-semibold text-[40px] text-white">
+              <h1 className="font-inter font-semibold text-3xl md:text-[40px] text-white">
                 Join Our Newsletter Now
               </h1>
               <p className="font-inter font-normal text-[18px] text-white">
