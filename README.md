@@ -1,3 +1,8 @@
+![hero](https://github.com/ilyaasomar/elite-estate/assets/48979155/def30741-fec3-484d-bfb7-7cfa47a83b94)
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
